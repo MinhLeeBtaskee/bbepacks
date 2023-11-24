@@ -17,9 +17,6 @@
 		"url": "https://github.com/MinhLeeBtaskee/bbepacks",
 		"type": "git"
 	},
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "engines" : { 
     "npm" : ">=8.0.0"
   }
