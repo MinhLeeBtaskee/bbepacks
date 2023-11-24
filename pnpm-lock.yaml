@@ -168,8 +168,6 @@ importers:
 
   packages/hooks: {}
 
-  packages/slingshot: {}
-
   packages/styles: {}
 
   packages/types: {}
