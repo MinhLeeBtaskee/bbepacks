@@ -1,0 +1,90 @@
+{
+  "name": "components-base",
+  "version": "1.0.1",
+  "description": "bTaskee Backend components base from antd v4",
+  "keywords": [],
+  "author": "MinhLeeBtaskee <leminh.nguyen@btaskee.com>",
+  "license": "ISC",
+  "main": "dist/main.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "/dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinhLeeBtaskee/bbepacks.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/components-base.test.js",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "i": "pnpm install"
+  },
+  "bugs": {
+    "url": "https://github.com/MinhLeeBtaskee/bbepacks/issues"
+  },
+  "homepage": "https://github.com/MinhLeeBtaskee/bbepacks#readme",
+  "browserslist": [
+    ">0.25%",
+    "not ie 11",
+    "not op_mini all"
+  ],
+  "peerDependencies": {
+    "antd": "^4.22.4",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-helmet-async": "^1.3.0",
+    "react-i18next": "^11.11.4",
+    "react-responsive": "^9.0.2",
+    "react-router-dom": "^6.0.2",
+    "styled-components": "^5.3.0",
+    "typeface-lato": "^1.1.13",
+    "typeface-montserrat": "^1.1.13",
+    "react-country-flag": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@babel/preset-react": "^7.23.3",
+    "@babel/preset-typescript": "^7.23.3",
+    "@types/react": "^18.2.38",
+    "@types/react-responsive": "^8.0.8",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.32",
+    "@webpack-cli/generators": "^3.0.7",
+    "antd": "^4.24.15",
+    "@ant-design/icons": "^4.0.0",
+    "autoprefixer": "^10.4.16",
+    "babel-loader": "^9.1.3",
+    "babel-plugin-import": "^1.13.8",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "core-js": "^3.33.3",
+    "css-loader": "^6.8.1",
+    "echarts": "^5.4.3",
+    "echarts-for-react": "^3.0.2",
+    "less": "^4.2.0",
+    "less-loader": "^11.1.3",
+    "postcss": "^8.4.31",
+    "postcss-loader": "^7.3.3",
+    "prettier": "^3.1.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-helmet-async": "^1.3.0",
+    "react-i18next": "^11.18.6",
+    "react-responsive": "^9.0.2",
+    "react-router-dom": "^6.20.0",
+    "style-loader": "^3.3.3",
+    "styled-components": "^5.3.0",
+    "ts-loader": "^9.5.1",
+    "typeface-lato": "^1.1.13",
+    "typeface-montserrat": "^1.1.13",
+    "typescript": "^5.3.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

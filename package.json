@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^8.0.0"
+  },
+  "scripts": {
+    "create-packs": "lerna create package-name -y",
+    "build": "learn run build",
+    "cb-build": "lerna run build:prod --scope=components-base",
+    "cb-i": "lerna run i --scope=components-base"
+  }
+}
