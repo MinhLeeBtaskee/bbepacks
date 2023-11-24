@@ -9,6 +9,8 @@
     "create-packs": "lerna create package-name -y",
     "build": "learn run build",
     "cb-build": "lerna run build:prod --scope=components-base",
-    "cb-i": "lerna run i --scope=components-base"
+    "cb-i": "lerna run i --scope=components-base",
+    "const-build": "lerna run build:prod --scope=constants",
+    "const-i": "lerna run i --scope=constants"
   }
 }
