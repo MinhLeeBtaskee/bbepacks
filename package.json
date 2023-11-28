@@ -8,10 +8,12 @@
     "publish": "lerna publish",
     "create-packs": "lerna create package-name -y",
     "build": "learn run build",
-    "cb-build": "lerna run build:prod --scope=components-base",
-    "cb-i": "lerna run i --scope=components-base",
-    "const-build": "lerna run build:prod --scope=constants",
-    "const-i": "lerna run i --scope=constants"
+    "cb-b": "lerna run build:prod --scope=@bbepacks/components-base",
+    "cb-i": "lerna run i --scope=@bbepacks/components-base",
+    "const-b": "lerna run build:prod --scope=@bbepacks/constants",
+    "const-i": "lerna run i --scope=@bbepacks/constants",
+    "utils-b": "lerna run build:prod --scope=@bbepacks/utils",
+    "utils-i": "lerna run i --scope=@bbepacks/utils"
   },
   "repository": {
 		"url": "https://github.com/MinhLeeBtaskee/bbepacks",
