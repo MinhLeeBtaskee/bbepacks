@@ -1,5 +1,4 @@
 export * from "./permissions";
-export * from "./enum";
 export * from "./domains";
 
 export const sendNotificationLevel = {

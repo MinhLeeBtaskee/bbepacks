@@ -1,24 +1,47 @@
 {
-  "name": "modules",
+  "name": "@bbepacks/modules",
   "version": "1.0.2",
-  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "description": "bTaskee Backend: modules",
   "keywords": [],
   "author": "MinhLeeBtaskee <leminh.nguyen@btaskee.com>",
   "license": "ISC",
-  "main": "lib/modules.js",
+  "main": "dist/main.js",
+  "types": "dist/index.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "/dist"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MinhLeeBtaskee/bbepacks.git"
   },
   "scripts": {
-    "test": "node ./__tests__/modules.test.js"
+    "test": "node ./__tests__/constants.test.js",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production --stats-error-details && tsc",
+    "watch": "webpack --watch",
+    "i": "pnpm install"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@babel/preset-typescript": "^7.23.3",
+    "babel-loader": "^9.1.3",
+    "core-js": "^3.33.3",
+    "prettier": "^3.1.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.32",
+    "@bbepacks/types": "file:../types"
   },
   "bugs": {
     "url": "https://github.com/MinhLeeBtaskee/bbepacks/issues"

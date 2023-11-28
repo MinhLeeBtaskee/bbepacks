@@ -3,7 +3,7 @@ import {
   E_USER_INCOME_CHANNEL_TOP_UP_PAYMENT_METHOD_VN,
   E_TH_ASKER_PAYMENT_METHOD,
   E_USER_INCOME_CHANNEL_TOP_UP_PAYMENT_METHOD_TH,
-} from "../enum/accounting-report";
+} from "@bbepacks/types";
 
 export const VN_USER_TOP_UP_OPTIONS = [
   {

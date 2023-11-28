@@ -1,9 +1,7 @@
 import { QUIZZES_TYPE } from "../common";
 import { SERVICES_NAME, TYPE_TASKER_TRAINING } from "../../both";
 
-// TODO
-// import moment from 'moments';
-const moment = () => new Date();
+import { moment } from "@bbepacks/modules";
 
 export const DEFAULT_DEPOSIT_FORM = {
   accountType: "M",

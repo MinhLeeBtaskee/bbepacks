@@ -7,19 +7,23 @@
   "scripts": {
     "publish": "lerna publish",
     "create-packs": "lerna create package-name -y",
-    "build": "learn run build",
+    "build": "lerna run build",
     "cb-b": "lerna run build:prod --scope=@bbepacks/components-base",
     "cb-i": "lerna run i --scope=@bbepacks/components-base",
     "const-b": "lerna run build:prod --scope=@bbepacks/constants",
     "const-i": "lerna run i --scope=@bbepacks/constants",
     "utils-b": "lerna run build:prod --scope=@bbepacks/utils",
-    "utils-i": "lerna run i --scope=@bbepacks/utils"
+    "utils-i": "lerna run i --scope=@bbepacks/utils",
+    "modules-b": "lerna run build:prod --scope=@bbepacks/modules",
+    "modules-i": "lerna run i --scope=@bbepacks/modules",
+    "types-b": "lerna run build:prod --scope=@bbepacks/types",
+    "types-i": "lerna run i --scope=@bbepacks/types"
   },
   "repository": {
-		"url": "https://github.com/MinhLeeBtaskee/bbepacks",
-		"type": "git"
-	},
-  "engines" : { 
-    "npm" : ">=8.0.0"
+    "url": "https://github.com/MinhLeeBtaskee/bbepacks",
+    "type": "git"
+  },
+  "engines": {
+    "npm": ">=8.0.0"
   }
 }

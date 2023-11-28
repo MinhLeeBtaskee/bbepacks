@@ -6,6 +6,7 @@
   "author": "MinhLeeBtaskee <leminh.nguyen@btaskee.com>",
   "license": "ISC",
   "main": "dist/main.js",
+  "types": "dist/index.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -21,7 +22,7 @@
     "test": "node ./__tests__/constants.test.js",
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
-    "build:prod": "webpack --mode=production --node-env=production",
+    "build:prod": "webpack --mode=production --node-env=production && tsc",
     "watch": "webpack --watch",
     "i": "pnpm install"
   },
@@ -45,6 +46,10 @@
     "typescript": "^5.3.2",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@bbepacks/modules": "file:../modules",
+    "@bbepacks/types": "file:../types"
   },
   "gitHead": "12b6c932dbc884d145776eebd03b03f4488d43db"
 }

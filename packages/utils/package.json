@@ -29,6 +29,10 @@
     "url": "https://github.com/MinhLeeBtaskee/bbepacks/issues"
   },
   "homepage": "https://github.com/MinhLeeBtaskee/bbepacks#readme",
+  "peerDependencies": {
+    "lodash": "^4.17.21",
+    "@types/lodash": "^4.14.191"
+  },
   "devDependencies": {
     "@babel/core": "^7.23.3",
     "@babel/preset-env": "^7.23.3",
@@ -40,6 +44,10 @@
     "typescript": "^5.3.2",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@bbepacks/constants": "file:../constants",
+    "@bbepacks/modules": "file:../modules"
   },
   "gitHead": "12b6c932dbc884d145776eebd03b03f4488d43db"
 }

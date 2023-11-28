@@ -1,6 +1,4 @@
-// TODO
-// import { IFilterTemplate } from 'types-root/notification';
-type IFilterTemplate = any;
+import { IFilterTemplate } from '@bbepacks/types';
 
 export const NOTIFICATION_TYPES = [
   {
